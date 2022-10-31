@@ -26,5 +26,16 @@
 // alert(queryElelemts.length);
 
 
-var nameElements = document.getElementsByName("userName");
-alert(nameElements[0].value);
+// var nameElements = document.getElementsByName("userName");
+// alert(nameElements[0].value);
+
+
+var name = document.getElementById("name").addEventListener("click",changeColor);
+
+function changeColor(){
+    document.getElementById("div1").style.backgroundColor = "red";
+    document.getElementById("div1").style.color = "white";
+    document.getElementById("div1").style.fontSize = "35px";
+    var nameElements = document.getElementsByName("userName");
+    nameElements[0].value = "Mustafa Kemal"
+}
