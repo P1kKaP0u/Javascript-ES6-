@@ -21,5 +21,10 @@
 //alert(classItem[1].innerHTML);
 //alert(classItem.length);
 
-var queryElelemts = document.querySelectorAll("p.intro1");
-alert(queryElelemts.length);
+
+// var queryElelemts = document.querySelectorAll("p.intro1");
+// alert(queryElelemts.length);
+
+
+var nameElements = document.getElementsByName("userName");
+alert(nameElements[0].value);
