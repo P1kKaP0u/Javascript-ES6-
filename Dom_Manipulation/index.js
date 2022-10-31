@@ -1,7 +1,7 @@
-document.getElementById("bio").innerHTML = "Author : Mustafa Kemal AKTAŞ";
+//document.getElementById("bio").innerHTML = "Author : Mustafa Kemal AKTAŞ";
 
-var intro1 = document.getElementById("intro1");
-var message = document.getElementById("message");
+//var intro1 = document.getElementById("intro1");
+//var message = document.getElementById("message");
 
 // message.innerHTML = intro1.innerHTML; 
 
@@ -16,6 +16,10 @@ var message = document.getElementById("message");
 // }
 
 
-var classItem = document.getElementsByClassName("intro1");
+//var classItem = document.getElementsByClassName("intro1");
 
-alert(classItem[1].innerHTML);
+//alert(classItem[1].innerHTML);
+//alert(classItem.length);
+
+var queryElelemts = document.querySelectorAll("p.intro1");
+alert(queryElelemts.length);
