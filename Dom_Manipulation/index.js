@@ -55,3 +55,8 @@ div1.insertBefore(head, p2);
 
 alert("P2 Kaldırılıyor!!!!!!!!");
 div1.removeChild(p2);
+
+
+alert("P1 Değiştiriliyor!!!!!!!!");
+var p1 = document.getElementById("p1");
+div1.replaceChild(head,p1);
